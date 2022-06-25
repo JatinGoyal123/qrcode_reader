@@ -2,7 +2,7 @@
 # pip install pyqrcode
 # pip install pypng
 import pyqrcode as qr
-content="www.techsrijan.com"
+content="www.youtube.com"
 qr_code=qr.create(content) 
 qr_code.png("mywebsite.png",scale=5)
 print('QrCode Generated Successfully')
